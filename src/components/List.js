@@ -64,6 +64,9 @@ class List extends Component {
     const {showForm} = this.state;
     return (
       <div className="to-do-list-container">
+        <div className="col s10 offset-s1 center-align">
+          <h1>to buy</h1>
+        </div>
         <div className="row">
           {this.renderForm()}
           {this.renderToDo()}
